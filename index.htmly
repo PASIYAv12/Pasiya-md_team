@@ -1,0 +1,52 @@
+<main>
+  <section class="welcome">
+    <h1>Welcome, 🧑‍💻 Pasidu Sampath</h1>
+    <p>You're now inside the PASIYA-MD Team Panel.</p>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3>BTC Price</h3>
+      <p>67,500</p>
+    </div>
+    <div class="card">
+      <h3>ETH Price</h3>
+      <p>3,450</p>
+    </div>
+    <div class="card">
+      <h3>Crypto Pack</h3>
+      <p>VIP Access –90/month</p>
+    </div>
+  </section>
+
+  <section class="videos">
+    <h2>📹 Trading Tutorials</h2>
+    <video controls width="300">
+      <source src="your-video.mp4" type="video/mp4">
+      Your browser does not support video.
+    </video>
+    <!-- Add more videos as needed -->
+  </section>
+
+  <section class="contact">
+    <h2>📞 Contact Support</h2>
+    <p>+94 76 454 8818 / +94 72 298 6772 / +94 72 297 7523</p>
+  </section>
+</main>
+<button onclick="showContact()">Contact Owner</button>
+
+<div id="messageBox" style="display:none; padding: 15px; margin-top: 20px; background: #222; color: #fff; border-radius: 5px;">
+  <p><strong>OWNER Contact</strong></p>
+  <p>📞 +94 78 454 8818</p>
+  <p>📞 +94 76 635 9869</p>
+</div>
+
+<script>
+  function showContact() {
+    const box = document.getElementById("helow pasiya-md ");
+    box.style.display = "block";
+  }
+</script>
+```
+
+---
